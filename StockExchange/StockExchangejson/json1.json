@@ -1,0 +1,19 @@
+{
+  "StockList": [
+    {
+      "Name": "IBM",
+      "Stocks": 20.0,
+      "StockPrice": 60
+    },
+    {
+      "Name": "TCS",
+      "Stocks": 50.0,
+      "StockPrice": 75
+    },
+    {
+      "Name": "Google",
+      "Stocks": 50.0,
+      "StockPrice": 75
+    }
+  ]
+}

@@ -6,7 +6,10 @@ namespace StockExchange
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wellcome to Stock Exchange!");
+            const string INVENTORY_JSON = @"C:\Users\dnyan\dnyana\StockExchange\StockExchange\StockExchangejson\json1.json";
+            StockExchangeMain stockExchangeMain = new StockExchangeMain();
+            stockExchangeMain.DisplayData(INVENTORY_JSON);
         }
     }
+    
 }
